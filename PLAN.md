@@ -148,7 +148,7 @@ AIP-1/
 | Production build (`npm run build`) | Done |
 | Local dev server (`npm run dev`) | Done |
 | GitHub push | Done — [github.com/buntyraj-pts/ai-software-building-guide](https://github.com/buntyraj-pts/ai-software-building-guide) |
-| Vercel deploy | Pending — manual; see [DEPLOY.md](DEPLOY.md) |
+| Vercel deploy | Done — [ai-software-building-guide.vercel.app](https://ai-software-building-guide.vercel.app) (GitHub auto-deploy pending — connect GitHub in Vercel account settings) |
 
 **All 11 components implemented.** Site runs at `http://localhost:3000` during dev.
 
