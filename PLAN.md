@@ -147,7 +147,7 @@ AIP-1/
 | Screenshot placeholders | Done |
 | Production build (`npm run build`) | Done |
 | Local dev server (`npm run dev`) | Done |
-| GitHub push | Pending — manual; see [DEPLOY.md](DEPLOY.md) |
+| GitHub push | Done — [github.com/buntyraj-pts/ai-software-building-guide](https://github.com/buntyraj-pts/ai-software-building-guide) |
 | Vercel deploy | Pending — manual; see [DEPLOY.md](DEPLOY.md) |
 
 **All 11 components implemented.** Site runs at `http://localhost:3000` during dev.
