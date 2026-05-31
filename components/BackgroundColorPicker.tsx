@@ -20,7 +20,7 @@ function applyPageBackground(color: string) {
 }
 
 export default function BackgroundColorPicker() {
-  const [color, setColor] = useState(DEFAULT_COLOR);
+  const [color, setColor] = useState<string>(DEFAULT_COLOR);
 
   useEffect(() => {
     const saved = localStorage.getItem(STORAGE_KEY);
