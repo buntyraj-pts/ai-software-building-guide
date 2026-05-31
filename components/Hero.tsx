@@ -8,6 +8,9 @@ export default function Hero() {
         <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
           Build a website with AI — even if you&apos;ve never coded
         </h1>
+        <p className="mt-3 text-base font-medium text-blue-600">
+          Created by BuntyRaj
+        </p>
         <p className="mt-6 text-lg leading-relaxed text-slate-600">
           This guide walks you through building and publishing software using
           three free tools: Cursor, GitHub, and Vercel. No prior programming
