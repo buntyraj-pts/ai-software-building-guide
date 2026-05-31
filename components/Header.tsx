@@ -1,3 +1,5 @@
+import BackgroundColorPicker from "@/components/BackgroundColorPicker";
+
 const navLinks = [
   { href: "#why", label: "Why AI" },
   { href: "#tools", label: "Tools" },
@@ -12,6 +14,9 @@ const navLinks = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
+      <div className="mx-auto flex max-w-3xl justify-end border-b border-slate-100 px-6 py-2">
+        <BackgroundColorPicker />
+      </div>
       <div className="mx-auto flex max-w-3xl flex-col gap-3 px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
         <a
           href="#top"
