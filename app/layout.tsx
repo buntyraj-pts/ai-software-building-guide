@@ -34,7 +34,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth antialiased`}
     >
-      <body className="min-h-screen font-sans text-slate-900">
+      <body className="min-h-screen font-sans">
         {children}
       </body>
     </html>
