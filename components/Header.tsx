@@ -15,8 +15,9 @@ const navLinks = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-3xl justify-end border-b border-slate-100 px-6 py-2">
+      <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-end gap-4 border-b border-slate-100 px-6 py-2">
         <BackgroundColorPicker />
+        <ForegroundColorPicker />
       </div>
       <div className="mx-auto flex max-w-3xl flex-col gap-3 px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
         <a
@@ -26,7 +27,7 @@ export default function Header() {
           AI Software Guide
         </a>
         <nav aria-label="Page sections">
-          <ul className="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <ul className="flex flex-wrap gap-x-4 gap-y-2">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
@@ -37,9 +38,6 @@ export default function Header() {
                 </a>
               </li>
             ))}
-            <li>
-              <ForegroundColorPicker />
-            </li>
           </ul>
         </nav>
       </div>
